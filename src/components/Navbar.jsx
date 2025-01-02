@@ -3,6 +3,11 @@ import Logo from "../assets/logo_png.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [language, setLanguage] = useState("PT-BR");
+
+  const handleLanguageChange = (e) => {
+    setLanguage(e.target.value);
+  };
 
   return (
     <header>
@@ -16,7 +21,7 @@ const Navbar = () => {
         <div className="navbar-container">
           {/* Logo */}
           <div className="navbar-logo">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="Logo" />
           </div>
 
           {/* Menu para desktop */}

@@ -40,7 +40,7 @@
     transition: opacity 0.3s ease;
     border-radius: 5px;
     background: rgb(3,3,3);
-    background: linear-gradient(159deg, rgba(3,3,3,1) 0%, rgba(202,22,22,1) 100%);
+    background: linear-gradient(159deg, rgba(3,3,3,1) 0%, rgba(202,22,22,1) 50%, rgba(3,3,3,1) 100%);
 }
 
 .aba h2 {
