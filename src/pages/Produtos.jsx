@@ -5,7 +5,7 @@ import BannerNFA from "../assets/banner.jpg";
 
 const produtos = [
   { id: 1, nome: "Cache Cheat", precoOriginal: 65, preco: 50, estoque: true, imagem: BannerCheat },
-  { id: 2, nome: "Conta NFA", precoOriginal: 10, preco: 7.50, estoque: true, imagem: BannerNFA },
+  { id: 2, nome: "Conta NFA", precoOriginal: 10, preco: 7.50, estoque: false, imagem: BannerNFA },
 ];
 
 const Produtos = () => {
